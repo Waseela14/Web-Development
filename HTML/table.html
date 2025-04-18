@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 80%;
+            border-collapse: collapse;
+            
+        }
+        /* tr td:nth-child(1){
+            color: brown;
+        } */
+        #marks td, #marks th{
+            border: solid 1px;
+            padding: 8px;
+            /* height: 50px; */
+            /* vertical-align: bottom; */
+           
+        }
+        #marks th{
+            text-align: left;
+            background-color: rgb(55, 55, 202);
+            color: white;
+            
+        }
+        #marks tr:nth-child(odd){
+            background-color: skyblue;
+        }
+        #marks tr:hover{
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <table id="marks">
+        <tr>
+            <th>Name</th>
+            <th>Group</th>
+            <th>Marks</th>
+            <th colspan="2">Subjects</th>
+            <th>Batch</th>
+
+        </tr>
+        <tr>
+            <td>Sarim</td>
+            <td>B</td>
+            <td>89</td>
+            <td>Maths</td>
+            <td>Chemistry</td>
+            <td rowspan="4">3</td>
+        </tr>
+        <tr>
+            <td>Arif</td>
+            <td>B</td>
+            <td>79</td>
+            <td>Maths</td>
+            <td>Chemistry</td>
+        </tr>
+        <tr>
+            <td>Kareem</td>
+            <td>B</td>
+            <td>91</td>
+            <td>Maths</td>
+            <td>Chemistry</td>
+        </tr>
+        <tr>
+            <td>Rehman</td>
+            <td>B</td>
+            <td>60</td>
+            <td>Maths</td>
+            <td>Chemistry</td>
+        </tr>
+    </table>
+</body>
+</html>
